@@ -2,10 +2,10 @@
 
 typedef struct
 {
-  int População;
-  float Areas;
+  int Populacao;
+  float Area;
   float PIB;
-  int Numero_de_Pontos_Turisticos; 
+  int Numero_de_Pontos_Turistico; 
   
 } Carta;
 
@@ -24,6 +24,12 @@ int main() {
   };
 
 
+  printf("Carta 1:\n");
+  printf("populacao: %d\n" , A01.Populacao);
+  printf("Area: %.2f\n" , A01.Area);
+  printf("PIB: %.2f\n" , A01.PIB);
+  printf("numero de Pontos Turistico: %d\n", A01.Numero_de_Pontos_Turistico);
+  
 
  
 return 0;

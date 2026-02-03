@@ -35,5 +35,5 @@ int main() {
   printf("Area: %.2f\n" , B02.Area);
   printf("PIB: %.2f\n" , B02.PIB);
   printf("Numero de Pontos Turistico: %d\n" , B02.Numero_de_Pontos_Turistico)
-return 0;
+  return 0;
 } 
